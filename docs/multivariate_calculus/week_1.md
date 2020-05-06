@@ -396,7 +396,7 @@ $$u'(x) = 10x^4 + 3$$
 
 Now we've got these two expressions, and I'm going to use a mix of notation for convenience. And I'm going to say,
 
-$$\frac{dg}{du} \times frac{du}{dx} = cos(u)(10x^4 + 3)$$
+$$\frac{dg}{du} \times \frac{du}{dx} = cos(u)(10x^4 + 3)$$
 
 $$\Rightarrow \frac{dg}{dx} = cos(2x^5 + 3x)(10x^4 + 3)$$
 
