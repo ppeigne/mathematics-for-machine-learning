@@ -334,7 +334,7 @@ $$h'(p(m)) =  \frac{1}{3}e^m(5 - 2e^m)$$
 
 However, the **chain rule** provides us with a more elegant approach, which importantly will still work even for complicated functions, where direct substitution like this may not be an option. Consider the derivatives $\frac{dh}{dp}$ and $\frac{dp}{dm}$. You'll notice that in this particular notation convention, where the derivatives are represented by quotients, the product of these two quantities looks like it would give you the desired function $\frac{dh}{dm}$, i.e.,
 
-$$\frac{dh}{dp} \times \frac{dp}{dm} = \frac{dh}{dm}$$
+$$\frac{dh}{dp} \times \frac{dp}{dm} = \frac{dh}{\cancel{dp}} \times \frac{\cancel{dp}}{dm} = \frac{dh}{dm}$$
 
 And in actual fact, this is a perfectly sensible way to think about what's going on. This approach is called the chain rule, because, in a sense, we are making a chain of derivative relationships. Now, this is certainly not what you might describe as a formal derivation, but it is already good enough to enable you to make use of the chain rule effectively.
 
